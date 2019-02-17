@@ -4,6 +4,7 @@ export default Component.extend(
     {
 actions:{
   deviceInfo() {
+      //button alert properties
 alert("Cordova version: " + device.cordova + "\n" +
   "Device Model: " + device.model + "\n" +
   "Device Platform: " + device.platform + "\n" +
